@@ -1,0 +1,31 @@
+# Built artifacts
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+
+# Build directories
+build/
+.gradle/
+captures/
+out/
+
+# Local config
+local.properties
+.cxx/
+
+# IDE: Android Studio / IntelliJ
+.idea/
+*.iml
+.DS_Store
+
+# IDE: VS Code
+.vscode/
+
+# Keystores
+*.jks
+*.keystore
+
+# Logs
+*.log

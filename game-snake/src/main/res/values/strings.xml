@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="snake_title">贪吃蛇</string>
+    <string name="snake_description">滑动控制方向，吃到食物加分，撞墙或撞到自己即结束。</string>
+    <string name="snake_score">得分：%1$d</string>
+    <string name="snake_best">最高：%1$d</string>
+    <string name="snake_game_over">游戏结束</string>
+    <string name="snake_restart">再来一局</string>
+    <string name="snake_paused">已暂停</string>
+    <string name="snake_pause">暂停</string>
+    <string name="snake_resume">继续</string>
+</resources>

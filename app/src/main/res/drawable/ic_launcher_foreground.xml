@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- 居中放一个游戏手柄风格的方框 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M34,42 H74 A6,6 0 0 1 80,48 V60 A6,6 0 0 1 74,66 H34 A6,6 0 0 1 28,60 V48 A6,6 0 0 1 34,42 Z" />
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M38,50 H46 V58 H38 Z" />
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M62,50 H70 V58 H62 Z" />
+</vector>
