@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="g2048_title">2048</string>
+    <string name="g2048_score">分数</string>
+    <string name="g2048_best">最高</string>
+    <string name="g2048_new_game">新游戏</string>
+    <string name="g2048_undo">撤销</string>
+    <string name="g2048_back_to_hall">返回大厅</string>
+    <string name="g2048_game_over">无路可走</string>
+    <string name="g2048_you_win">你拼到 2048 了！</string>
+    <string name="g2048_keep_playing">继续玩</string>
+    <string name="g2048_try_again">再来一局</string>
+    <string name="g2048_hint">滑动方向合并相同数字</string>
+    <string name="g2048_new_record">新纪录！</string>
+</resources>

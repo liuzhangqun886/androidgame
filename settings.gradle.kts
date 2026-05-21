@@ -24,3 +24,4 @@ rootProject.name = "MiniGames"
 include(":app")
 include(":core")
 include(":game-snake")
+include(":game-2048")

@@ -1,26 +1,15 @@
 plugins {
-    alias(libs.plugins.android.application)
+    alias(libs.plugins.android.library)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
 }
 
 android {
-    namespace = "com.liuxiugame.minigames"
+    namespace = "com.liuxiugame.minigames.game2048"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.liuxiugame.minigames"
         minSdk = 26
-        targetSdk = 34
-        versionCode = 1
-        versionName = "0.1.0"
-    }
-
-    buildTypes {
-        release {
-            isMinifyEnabled = false
-            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
-        }
     }
 
     buildFeatures {
@@ -39,8 +28,6 @@ android {
 
 dependencies {
     implementation(project(":core"))
-    implementation(project(":game-snake"))
-    implementation(project(":game-2048"))
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
